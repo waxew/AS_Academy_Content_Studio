@@ -1,0 +1,13 @@
+{
+  "courseId": "basic",
+  "title": "AS Academy Basic Programming",
+  "version": "1.0.0",
+  "levels": [
+    {"id":"foundation","title":"Foundation","chapters":["computer-basics","development-environment"]},
+    {"id":"fundamentals","title":"Fundamentals","chapters":["programming-concepts","algorithm","problem-solving"]},
+    {"id":"beginner","title":"Beginner","chapters":["variables","data-types","conditions","loops","functions"]},
+    {"id":"intermediate","title":"Intermediate","chapters":["data-structures","debugging","clean-code"]},
+    {"id":"advanced","title":"Advanced","chapters":["oop","architecture-basics","modular-programming"]},
+    {"id":"specialized","title":"Specialized","chapters":["git","testing","documentation","software-lifecycle"]}
+  ]
+}
