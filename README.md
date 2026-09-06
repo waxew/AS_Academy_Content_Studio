@@ -1,15 +1,70 @@
 # AS Academy Content Studio
 
-Central knowledge repository for AS Academy.
+## معرفی پروژه
 
-## Architecture
+این مخزن مرکز مدیریت، آرشیو، سازمان‌دهی و آماده‌سازی محتوای آموزشی در اکوسیستم AS Academy است.
 
-Content Studio -> MainCourse -> Core -> MainUi
+Content Studio منبع اصلی تولید و نگهداری دانش است و محتوای آماده‌شده را برای لایه‌های بعدی Academy آماده می‌کند.
 
-## Content Model
+## جایگاه در معماری AS Academy
 
-Domain -> Subject -> Level -> Chapter -> Lesson -> Exercise -> Quiz -> Project
+```
+Content Studio
+        ↓
+MainCourse
+        ↓
+Core
+        ↓
+MainUi
+```
 
-## Status
+## هدف اصلی
 
-Phase 1 initialized.
+وظایف این پروژه:
+
+- مدیریت دانش آموزشی
+- آرشیو محتوا
+- نسخه‌بندی محتوا
+- ساختاردهی دوره‌ها
+- آماده‌سازی Course Package
+- نگهداری استانداردهای آموزشی
+
+## مدل سازمان‌دهی محتوا
+
+تمام آموزش‌ها از ساختار یکسان استفاده می‌کنند:
+
+```
+Domain
+ └── Subject
+      └── Level
+           ├── مبانی (Fundamentals)
+           ├── مقدماتی (Beginner)
+           ├── پیشرفته (Advanced)
+           └── تخصصی (Expert)
+                └── Chapter
+                     └── Lesson
+                          └── Exercise
+                               └── Quiz
+                                    └── Project
+```
+
+## قوانین توسعه
+
+- Content Studio مالک محتوا است.
+- Runtime و Logic اجرایی در Core قرار دارد.
+- UI در MainUi قرار دارد.
+- Course Appها نباید محتوا را مستقیم تغییر دهند.
+
+## استاندارد توضیحات کد
+
+تمام فایل‌های توسعه باید دارای توضیحات فارسی باشند:
+
+- هدف فایل
+- مسئولیت کلاس یا تابع
+- وابستگی‌ها
+- محدودیت‌ها
+- دلیل تصمیمات معماری مهم
+
+## وضعیت پروژه
+
+Phase 1 - Foundation Documentation
