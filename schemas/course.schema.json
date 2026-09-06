@@ -1,0 +1,9 @@
+{
+  "type": "object",
+  "properties": {
+    "domain": {"type":"string"},
+    "subject": {"type":"string"},
+    "level": {"type":"string"},
+    "chapters": {"type":"array"}
+  }
+}
