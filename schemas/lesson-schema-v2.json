@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "2.0",
+  "lesson": {
+    "lessonId": "",
+    "title": "",
+    "courseId": "",
+    "levelId": "",
+    "chapterId": "",
+    "order": 0,
+    "metadata": {
+      "tags": [],
+      "keywords": [],
+      "difficulty": "",
+      "estimatedTime": ""
+    },
+    "learningObjectives": [],
+    "introduction": "",
+    "conceptExplanation": "",
+    "deepExplanation": "",
+    "realWorldExamples": [],
+    "technicalExamples": [],
+    "commonMistakes": [],
+    "bestPractices": [],
+    "practice": [],
+    "quizId": "",
+    "exerciseId": "",
+    "projectLinks": [],
+    "summary": ""
+  }
+}
