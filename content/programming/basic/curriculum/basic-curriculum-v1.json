@@ -1,0 +1,76 @@
+{
+  "courseId": "basic",
+  "title": "AS Academy Basic Programming",
+  "version": "1.0.0",
+  "schemaVersion": 1,
+  "levels": [
+    {
+      "id": "foundation",
+      "title": "Foundation",
+      "topics": [
+        "Computer Basics",
+        "Hardware and Software",
+        "Operating Systems",
+        "Compiler and Runtime",
+        "Development Environment"
+      ]
+    },
+    {
+      "id": "fundamentals",
+      "title": "Programming Fundamentals",
+      "topics": [
+        "Programming Concepts",
+        "Algorithms",
+        "Flowcharts",
+        "Problem Solving",
+        "Pseudocode"
+      ]
+    },
+    {
+      "id": "beginner",
+      "title": "Beginner Programming",
+      "topics": [
+        "Variables",
+        "Data Types",
+        "Operators",
+        "Conditions",
+        "Loops",
+        "Functions"
+      ]
+    },
+    {
+      "id": "intermediate",
+      "title": "Intermediate",
+      "topics": [
+        "Data Structures",
+        "Searching",
+        "Sorting",
+        "Debugging",
+        "Clean Code"
+      ]
+    },
+    {
+      "id": "advanced",
+      "title": "Advanced Foundation",
+      "topics": [
+        "Object Oriented Programming",
+        "Classes",
+        "Objects",
+        "Inheritance",
+        "Polymorphism",
+        "Modular Programming"
+      ]
+    },
+    {
+      "id": "specialized",
+      "title": "Professional Foundation",
+      "topics": [
+        "Git",
+        "GitHub",
+        "Testing",
+        "Documentation",
+        "Software Development Lifecycle"
+      ]
+    }
+  ]
+}
